@@ -2,7 +2,7 @@
 
 In the **/etc/shadow** file passwords hashed with **yescrypt**, usually have this `j9T` **parameter** as shown in the following example shadow entry, but information about this parameter is hard to come by.
 
-`test_user_1:$6$j9T$xyz$VKswtvLoVpOLcpjDMIFXhxa8ukqqKSKHjcPBLZUk9NxWldmlFQY4stUGo.QjEhav7mp86ih2PRqYPqjkhWi5y.:19796:0:99999:7:::`
+`test_user_1:$y$j9T$xyz$VKswtvLoVpOLcpjDMIFXhxa8ukqqKSKHjcPBLZUk9NxWldmlFQY4stUGo.QjEhav7mp86ih2PRqYPqjkhWi5y.:19796:0:99999:7:::`
 
 When you create a user using `adduser test_user_1`, you are might never see this `j9T` change, but now you might question what does this parameter even do?
 
